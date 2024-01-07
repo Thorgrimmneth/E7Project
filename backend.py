@@ -252,16 +252,16 @@ def process_level(itemList):
     count_gs_gte_80_unreforged = sum(item["score"] >= 80 and item["canBeReforged"] for item in itemList)
 
     return {
-        "number_of_items": len(itemList),
-        "level_88": count_level_88,
+        "number of items": len(itemList),
+        "level 88": count_level_88,
         "reforged": count_reforged,
-        "to_reforge": count_to_reforge,
+        "to reforge": count_to_reforge,
         "80+gs": count_gs_gte_80,
-        "80+gs_inc_unreforged": count_gs_gte_80_unreforged,
+        "80+gs inc unreforged": count_gs_gte_80_unreforged,
         "75+gs": count_gs_gte_75,
-        "75+gs_inc_unreforged": count_gs_gte_75_unreforged,
+        "75+gs inc unreforged": count_gs_gte_75_unreforged,
         "70+gs": count_gs_gte_70,
-        "70+gs_inc_unreforged": count_gs_gte_70_unreforged
+        "70+gs inc unreforged": count_gs_gte_70_unreforged
     }
 
 def process_stats(itemList):
@@ -309,20 +309,20 @@ def process_stats(itemList):
         "18+Speed - Speed Set": count_18_speed_set_speed,
         "15+Speed": count_15_speed,
         "15+Speed - Speed Set": count_15_speed_set_speed,
-        "30% HP": count_30_hp,
-        "40% HP": count_40_hp,
-        "30% Def": count_30_def,
-        "40% Def": count_40_def,
-        "30% Attack": count_30_atk,
-        "40% Attack": count_40_atk,
-        "30% Eff": count_30_eff,
-        "40% Eff": count_40_eff,
-        "30% Res": count_30_res,
-        "40% Res": count_40_res,
-        "27% Crit Dmg": count_27_crit_dmg,
-        "35% Crit Dmg": count_35_crit_dmg,
-        "20% Crit Chance": count_20_crit_chance,
-        "25% Crit Chance": count_25_crit_chance
+        "30%+ HP": count_30_hp,
+        "40%+ HP": count_40_hp,
+        "30%+ Def": count_30_def,
+        "40%+ Def": count_40_def,
+        "30%+ Attack": count_30_atk,
+        "40%+ Attack": count_40_atk,
+        "30%+ Eff": count_30_eff,
+        "40%+ Eff": count_40_eff,
+        "30%+ Res": count_30_res,
+        "40%+ Res": count_40_res,
+        "27%+ Crit Dmg": count_27_crit_dmg,
+        "35%+ Crit Dmg": count_35_crit_dmg,
+        "20%+ Crit Chance": count_20_crit_chance,
+        "25%+ Crit Chance": count_25_crit_chance
     }
 
 def process_graph(itemList):
